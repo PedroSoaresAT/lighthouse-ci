@@ -1,0 +1,13 @@
+* @atlastechnol/consultants-fe
+
+#any
+editorconfig @atlastechnol/consultants-fe @atlastechnol/consultants-be
+
+#infra
+Dockerfile*         @atlastechnol/infrastructure
+docker-compose*.yml @atlastechnol/infrastructure
+rootfs/            @atlastechnol/infrastructure
+
+.github/ @atlastechnol/infra-production
+/production/ @atlastechnol/infra-production
+production/ @atlastechnol/infra-production
