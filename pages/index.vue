@@ -5,7 +5,7 @@ await useAsyncData(() => appStore.fetchPanicServiceStatus())
 
 <template>
   <section class="flex flex-col gap-8 min-h-screen items-center justify-center">
-    <h1 class="font-medium">PROJECT_NAME</h1>
+    <h1 class="font-medium">teste</h1>
 
     <Logo :width="200" />
 
