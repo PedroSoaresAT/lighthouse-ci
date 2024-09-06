@@ -19,9 +19,9 @@ jobs:
       - name: lighthouse mobile audit
         run: yarn lhci:mobile
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.wyorlQCx1HLjx:54465527:xtDatEyLiZC }}
+          LHCI_GITHUB_APP_TOKEN: wyorlQCx1HLjx:54465527:xtDatEyLiZC
 
       - name: lighthouse desktop audit
         run: yarn lhci:desktop
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.wyorlQCx1HLjx:54465527:xtDatEyLiZC }}
+          LHCI_GITHUB_APP_TOKEN: wyorlQCx1HLjx:54465527:xtDatEyLiZC
